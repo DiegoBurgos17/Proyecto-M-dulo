@@ -77,3 +77,52 @@ button a{
     text-decoration: none;
 
 }
+@media (max-width: 768px) {
+
+    
+    .contenido {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    
+    .imageninicio img {
+        width: 80%;
+        position: relative; 
+        margin: 20px auto; 
+        top: 0;
+    }
+
+    /* Ajustar la navegación para pantallas pequeñas */
+    nav {
+        flex-direction: column; 
+    }
+
+    nav img {
+        width: 80px;
+    }
+
+    nav a {
+        padding: 10px 0;
+        font-size: 18px; 
+    }
+
+    
+    .card {
+        width: 90%;  
+        margin: 10px auto;
+    }
+
+    
+    h1 {
+        font-size: 28px; 
+    }
+
+    h2 {
+        font-size: 20px; 
+    }
+
+    .footer {
+        padding: 15px; 
+    }
+}
